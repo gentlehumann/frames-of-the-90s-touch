@@ -13,43 +13,37 @@ const Services = () => {
       icon: Frame,
       title: "Custom Framing",
       description: "Professional framing services with a wide selection of premium materials, from classic wood to modern metals.",
-      features: ["Premium materials", "Expert consultation", "Precision cutting", "UV protection"],
-      price: "Starting from 200 EGP"
+      features: ["Premium materials", "Expert consultation", "Precision cutting", "UV protection"]
     },
     {
       icon: Palette,
       title: "Art Curation",
       description: "Curated art collections from exclusive artists, perfect for homes, offices, and commercial spaces.",
-      features: ["Exclusive artists", "Various styles", "Authentication", "Investment pieces"],
-      price: "Varies by artwork"
+      features: ["Exclusive artists", "Various styles", "Authentication", "Investment pieces"]
     },
     {
       icon: Sparkles,
       title: "Restoration",
       description: "Professional art and frame restoration services to bring your treasured pieces back to life.",
-      features: ["Damage assessment", "Color restoration", "Frame repair", "Preservation treatment"],
-      price: "Quote on request"
+      features: ["Damage assessment", "Color restoration", "Frame repair", "Preservation treatment"]
     },
     {
       icon: Camera,
       title: "Photo Framing",
       description: "Transform your precious memories into stunning displays with our photo framing expertise.",
-      features: ["Multiple sizes", "Matting options", "Digital printing", "Family collections"],
-      price: "Starting from 150 EGP"
+      features: ["Multiple sizes", "Matting options", "Digital printing", "Family collections"]
     },
     {
       icon: Wrench,
       title: "Installation",
       description: "Professional installation services ensuring your artwork is displayed safely and beautifully.",
-      features: ["Home installation", "Gallery hanging", "Lighting advice", "Wall assessment"],
-      price: "Starting from 100 EGP"
+      features: ["Home installation", "Gallery hanging", "Lighting advice", "Wall assessment"]
     },
     {
       icon: Clock,
       title: "Express Service",
       description: "Need it fast? Our express service delivers quality framing in record time without compromising quality.",
-      features: ["24-48 hour delivery", "Rush orders", "Same-day consultation", "Quality guarantee"],
-      price: "Additional 30% fee"
+      features: ["24-48 hour delivery", "Rush orders", "Same-day consultation", "Quality guarantee"]
     }
   ];
 
@@ -99,11 +93,7 @@ const Services = () => {
                   </ul>
                 </div>
                 
-                <div className="pt-4 border-t border-border">
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="font-semibold text-primary">{service.price}</span>
-                  </div>
-                  
+                <div className="pt-4">
                   <Button 
                     onClick={() => handleServiceInquiry(service.title)}
                     className="w-full bg-gradient-hero hover:shadow-glow transition-all duration-300"

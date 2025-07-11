@@ -1,6 +1,6 @@
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
-import { Phone, MapPin, Clock, Heart } from "lucide-react";
+import { Phone, MapPin, Clock, Heart, Mail, Facebook } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -69,12 +69,27 @@ const Footer = () => {
                 <span>+20 12 22153694</span>
               </div>
               <div className="flex items-center space-x-2">
+                <Mail className="h-4 w-4" />
+                <span>Housofframes@hotmail.com</span>
+              </div>
+              <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>20 Almazah Street, Heliopolis, Cairo, Egypt</span>
+                <span>20 Alnazah Street, Heliopolis, Cairo, Egypt</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Clock className="h-4 w-4" />
                 <span>Sat-Thu: 10AM-8PM</span>
+              </div>
+              <div className="flex items-center space-x-2 mt-4">
+                <Facebook className="h-4 w-4" />
+                <a 
+                  href="https://www.facebook.com/houseofframes.eg" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-accent transition-colors duration-300"
+                >
+                  Follow us on Facebook
+                </a>
               </div>
             </div>
           </div>

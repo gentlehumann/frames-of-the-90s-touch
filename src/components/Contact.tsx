@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { MapPin, Phone, MessageCircle, Clock, Mail, Instagram } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Clock, Mail } from "lucide-react";
 
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
@@ -148,7 +148,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-primary mb-2">Visit Our Gallery</h3>
                     <p className="text-muted-foreground">
-                      Downtown Cairo, Egypt
+                      20 Alnazah Street, Heliopolis, Cairo, Egypt
                     </p>
                     <p className="text-sm text-muted-foreground mt-1">
                       Schedule an appointment to visit our showroom
@@ -179,19 +179,26 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            {/* Social Links */}
+            {/* Contact Info */}
             <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-primary mb-4">Follow Us</h3>
-                <div className="flex space-x-4">
-                  <Button variant="outline" size="sm">
-                    <Instagram className="h-4 w-4 mr-2" />
-                    Instagram
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    <Mail className="h-4 w-4 mr-2" />
-                    Email
-                  </Button>
+                <h3 className="font-semibold text-primary mb-4">Connect With Us</h3>
+                <div className="space-y-3">
+                  <div className="flex items-center space-x-2">
+                    <Mail className="h-4 w-4 text-primary" />
+                    <span className="text-muted-foreground">Housofframes@hotmail.com</span>
+                  </div>
+                  <a 
+                    href="https://www.facebook.com/houseofframes.eg" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    <span>Follow us on Facebook</span>
+                  </a>
                 </div>
                 <p className="text-sm text-muted-foreground mt-4">
                   Stay updated with our latest artworks and framing projects
