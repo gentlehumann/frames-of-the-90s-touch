@@ -1,82 +1,54 @@
-import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import { Eye, Heart, ShoppingCart, Maximize2 } from "lucide-react";
+import { Eye, Maximize2 } from "lucide-react";
 
 const Gallery = () => {
-  const [selectedCategory, setSelectedCategory] = useState("all");
-
-  // Sample gallery items - you can replace with real data
   const galleryItems = [
     {
       id: 1,
-      title: "Abstract Elegance",
-      artist: "Elena Martinez",
-      category: "abstract",
-      price: "2,500 EGP",
-      image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop",
+      title: "Botanical Elegance",
+      artist: "House Collection",
+      image: "/lovable-uploads/9ae8af0f-3b48-488e-b685-7b3fac2138fe.png",
       frameType: "Gold Ornate"
     },
     {
       id: 2,
-      title: "Landscape Dreams",
-      artist: "Ahmed Hassan",
-      category: "landscape",
-      price: "3,200 EGP",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+      title: "Ceramic Collection",
+      artist: "House Collection",
+      image: "/lovable-uploads/b161c5f6-bdc4-4dae-9b52-c5dc9af72523.png",
       frameType: "Dark Walnut"
     },
     {
       id: 3,
-      title: "Portrait Study",
-      artist: "Sarah Johnson",
-      category: "portrait",
-      price: "4,100 EGP",
-      image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=800&h=600&fit=crop",
-      frameType: "Modern Black"
+      title: "Golden Portrait",
+      artist: "House Collection",
+      image: "/lovable-uploads/e7706708-d4d6-4e5f-a51b-9c757aaa17ea.png",
+      frameType: "Modern Gold"
     },
     {
       id: 4,
-      title: "Urban Reflections",
-      artist: "Mohamed Ali",
-      category: "modern",
-      price: "2,800 EGP",
-      image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800&h=600&fit=crop",
-      frameType: "Silver Contemporary"
+      title: "Abstract Portrait",
+      artist: "House Collection",
+      image: "/lovable-uploads/0b37569a-092a-41d3-92a8-245104a93bd5.png",
+      frameType: "Contemporary"
     },
     {
       id: 5,
-      title: "Nature's Symphony",
-      artist: "Lisa Chen",
-      category: "landscape",
-      price: "3,600 EGP",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
-      frameType: "Natural Oak"
+      title: "Textured Canvas",
+      artist: "House Collection",
+      image: "/lovable-uploads/cd1380ca-0efe-40bb-906c-73c1936f79e2.png",
+      frameType: "White Minimalist"
     },
     {
       id: 6,
-      title: "Color Burst",
-      artist: "David Rodriguez",
-      category: "abstract",
-      price: "2,900 EGP",
-      image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop",
-      frameType: "White Minimalist"
+      title: "Gold Leaf Art",
+      artist: "House Collection",
+      image: "/lovable-uploads/ce433070-9fca-4efc-ae3e-fad71ea56dc4.png",
+      frameType: "Silver Contemporary"
     }
   ];
-
-  const categories = [
-    { id: "all", label: "All Artworks" },
-    { id: "abstract", label: "Abstract" },
-    { id: "landscape", label: "Landscape" },
-    { id: "portrait", label: "Portrait" },
-    { id: "modern", label: "Modern" }
-  ];
-
-  const filteredItems = selectedCategory === "all" 
-    ? galleryItems 
-    : galleryItems.filter(item => item.category === selectedCategory);
 
   const handleInquiry = (item: any) => {
     const message = `Hello! I'm interested in "${item.title}" by ${item.artist} (${item.frameType} frame). Could you provide more details?`;
@@ -96,27 +68,9 @@ const Gallery = () => {
           </p>
         </div>
 
-        {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category) => (
-            <Button
-              key={category.id}
-              variant={selectedCategory === category.id ? "default" : "outline"}
-              onClick={() => setSelectedCategory(category.id)}
-              className={`transition-all duration-300 ${
-                selectedCategory === category.id 
-                  ? "bg-gradient-hero shadow-elegant" 
-                  : "hover:bg-accent/20"
-              }`}
-            >
-              {category.label}
-            </Button>
-          ))}
-        </div>
-
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredItems.map((item, index) => (
+          {galleryItems.map((item, index) => (
             <Card 
               key={item.id} 
               className="group overflow-hidden shadow-card hover:shadow-elegant transition-all duration-500 animate-fade-in"
@@ -149,9 +103,6 @@ const Gallery = () => {
                           </DialogContent>
                         </Dialog>
                         
-                        <Button size="sm" variant="secondary" className="bg-white/90 hover:bg-white">
-                          <Heart className="h-4 w-4" />
-                        </Button>
                       </div>
                       
                       <Button 
@@ -180,16 +131,15 @@ const Gallery = () => {
                     </Badge>
                   </div>
                   
-                  <div className="flex justify-between items-center">
-                    <span className="text-lg font-semibold text-primary">{item.price}</span>
+                  <div className="text-center">
                     <Button 
                       variant="outline" 
                       size="sm"
                       onClick={() => handleInquiry(item)}
                       className="hover:bg-primary hover:text-primary-foreground"
                     >
-                      <ShoppingCart className="h-4 w-4 mr-2" />
-                      Contact
+                      <Eye className="h-4 w-4 mr-2" />
+                      Contact Us
                     </Button>
                   </div>
                 </div>
@@ -198,16 +148,6 @@ const Gallery = () => {
           ))}
         </div>
 
-        {/* Load More Button */}
-        <div className="text-center mt-12">
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-          >
-            View More Artworks
-          </Button>
-        </div>
       </div>
     </section>
   );
