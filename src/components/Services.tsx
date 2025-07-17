@@ -50,7 +50,9 @@ const Services = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             From custom framing to art curation, we offer comprehensive services 
-            for individuals and corporations that blend traditional craftsmanship with modern techniques.
+            for both individual clients and corporate partners. We specialize in large-scale 
+            projects for hotels, restaurants, hospitals, government buildings, and commercial 
+            spaces, combining traditional craftsmanship with modern techniques to transform any environment.
           </p>
         </div>
 
@@ -107,6 +109,8 @@ const Services = () => {
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Whether you're an individual client or a corporate partner, every project is unique. 
+            We have extensive experience working with major hotels, government facilities, 
+            hospitals, and commercial establishments across Egypt and the Middle East. 
             Contact us to discuss your specific requirements and let us create a personalized 
             solution that exceeds your expectations.
           </p>
