@@ -22,12 +22,6 @@ const Services = () => {
       features: ["Exclusive artists", "Various styles", "Authentication", "Investment pieces"]
     },
     {
-      icon: Sparkles,
-      title: "Restoration",
-      description: "Professional art and frame restoration services to bring your treasured pieces back to life.",
-      features: ["Damage assessment", "Color restoration", "Frame repair", "Preservation treatment"]
-    },
-    {
       icon: Camera,
       title: "Photo Framing",
       description: "Transform your precious memories into stunning displays with our photo framing expertise.",
@@ -98,7 +92,7 @@ const Services = () => {
                     onClick={() => handleServiceInquiry(service.title)}
                     className="w-full bg-gradient-hero hover:shadow-glow transition-all duration-300"
                   >
-                    Get Quote
+                    Contact Us
                   </Button>
                 </div>
               </CardContent>
