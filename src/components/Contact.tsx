@@ -168,8 +168,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-primary mb-2">Business Hours</h3>
                     <div className="text-muted-foreground space-y-1">
-                      <p>Saturday - Thursday: 10:00 AM - 8:00 PM</p>
-                      <p>Friday: 2:00 PM - 8:00 PM</p>
+                      <p>Saturday - Thursday: 10:00 AM - 10:00 PM</p>
+                      <p>Friday: Closed</p>
                       <p className="text-sm mt-2">
                         Available on WhatsApp 24/7 for urgent inquiries
                       </p>
