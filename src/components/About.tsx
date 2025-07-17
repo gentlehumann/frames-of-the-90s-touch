@@ -8,10 +8,10 @@ const About = () => {
   };
 
   const stats = [
-    { icon: Clock, number: "30+", label: "Years of Excellence" },
-    { icon: Users, number: "5000+", label: "Happy Customers" },
-    { icon: Palette, number: "200+", label: "Featured Artists" },
-    { icon: Award, number: "50+", label: "Awards Won" }
+    { icon: Clock, number: "28+", label: "Years of Excellence" },
+    { icon: Users, number: "500+", label: "Projects Completed" },
+    { icon: Palette, number: "100+", label: "Corporate Clients" },
+    { icon: Award, number: "7", label: "International Partners" }
   ];
 
   const values = [
@@ -41,8 +41,8 @@ const About = () => {
             Our Story
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Three decades of passion, dedication, and artistry have shaped House of Frames 
-            into Egypt's premier destination for custom framing and exclusive art.
+            Under the leadership of Director <span className="font-semibold text-primary">Ashraf Aziz</span>, 
+            House of Frames continues the legacy of excellence established by Mano Trade since 1996.
           </p>
         </div>
 
@@ -50,24 +50,24 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="animate-fade-in">
             <h3 className="font-serif text-3xl font-semibold text-primary mb-6">
-              Heritage Meets Innovation
+              Mano Trade & House of Frames
             </h3>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Founded in the early 1990s, House of Frames began as a small workshop with a 
-                big dream: to preserve and enhance the beauty of art through exceptional framing. 
-                What started as a passion project has evolved into one of Egypt's most trusted 
-                names in custom framing and art curation.
+                The Egyptian International Company for Foreign Trade (Mano Trade) was established in 1996, 
+                mainly to import artwork from Italy and the United States of America. Today, Mano became 
+                the sole agent of 7 highly known artwork companies worldwide.
               </p>
               <p>
-                Our journey has been marked by continuous innovation while honoring traditional 
-                craftsmanship techniques. We've embraced modern materials and methods without 
-                losing sight of the artisanal quality that defines our work.
+                The company owns 1 factory to manufacture frames from both local and imported wood from Italy. 
+                In 2001, Mano inaugurated a sister company, "House of Frames" to act as a retailer company 
+                in wall decorations and artwork.
               </p>
               <p>
-                Today, we proudly serve artists, collectors, businesses, and art lovers, 
-                helping them showcase their treasured pieces with frames that enhance and 
-                protect their investments for generations to come.
+                Over the last 10 years, the company succeeded to establish a well-known name in the field 
+                because of its proficiency and quality of its products. We've completed over 60 projects 
+                with various establishments including government buildings, universities, clubs, hospitals, 
+                hotels, and restaurants across Egypt and Kuwait.
               </p>
             </div>
             <Button 
@@ -117,6 +117,39 @@ const About = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Corporate Clients */}
+        <div className="mb-16">
+          <h3 className="font-serif text-3xl font-semibold text-primary text-center mb-12">
+            Our Corporate Partners
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <Card className="shadow-card">
+              <CardContent className="p-6 text-center">
+                <h4 className="font-semibold text-primary mb-3">Government</h4>
+                <p className="text-sm text-muted-foreground">Guest Palace Ministry of Foreign Affairs, Supreme Court</p>
+              </CardContent>
+            </Card>
+            <Card className="shadow-card">
+              <CardContent className="p-6 text-center">
+                <h4 className="font-semibold text-primary mb-3">Universities</h4>
+                <p className="text-sm text-muted-foreground">Modern Academy Maady, British University</p>
+              </CardContent>
+            </Card>
+            <Card className="shadow-card">
+              <CardContent className="p-6 text-center">
+                <h4 className="font-semibold text-primary mb-3">Hotels & Resorts</h4>
+                <p className="text-sm text-muted-foreground">Four Seasons, Sofitel, Marriott, Hilton, Intercontinental</p>
+              </CardContent>
+            </Card>
+            <Card className="shadow-card">
+              <CardContent className="p-6 text-center">
+                <h4 className="font-semibold text-primary mb-3">Healthcare</h4>
+                <p className="text-sm text-muted-foreground">Cleopatra Hospital, Hyatt Medical Center</p>
+              </CardContent>
+            </Card>
+          </div>
         </div>
 
         {/* Values */}
