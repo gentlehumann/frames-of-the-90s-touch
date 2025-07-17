@@ -74,7 +74,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>20 Alnazah Street, Heliopolis, Cairo, Egypt</span>
+                <span>20 Almazah Street, Heliopolis, Cairo, Egypt</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Clock className="h-4 w-4" />

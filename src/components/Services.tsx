@@ -56,7 +56,7 @@ const Services = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             From custom framing to art curation, we offer comprehensive services 
-            that blend traditional craftsmanship with modern techniques.
+            for individuals and corporations that blend traditional craftsmanship with modern techniques.
           </p>
         </div>
 
@@ -112,8 +112,9 @@ const Services = () => {
             Need a Custom Solution?
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Every project is unique. Contact us to discuss your specific requirements 
-            and let us create a personalized solution that exceeds your expectations.
+            Whether you're an individual client or a corporate partner, every project is unique. 
+            Contact us to discuss your specific requirements and let us create a personalized 
+            solution that exceeds your expectations.
           </p>
           <Button 
             onClick={() => handleServiceInquiry("custom consultation")}

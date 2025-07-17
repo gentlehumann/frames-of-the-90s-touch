@@ -148,7 +148,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-primary mb-2">Visit Our Gallery</h3>
                     <p className="text-muted-foreground">
-                      20 Alnazah Street, Heliopolis, Cairo, Egypt
+                      20 Almazah Street, Heliopolis, Cairo, Egypt
                     </p>
                     <p className="text-sm text-muted-foreground mt-1">
                       Schedule an appointment to visit our showroom
