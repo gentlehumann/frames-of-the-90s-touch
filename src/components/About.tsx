@@ -42,7 +42,7 @@ const About = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Under the leadership of Director <span className="font-semibold text-primary">Ashraf Aziz</span>, 
-            House of Frames continues its legacy of excellence established in the 2000s.
+            House of Frames continues its legacy of excellence established since 2000.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ const About = () => {
             </h3>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                House of Frames was established in the 2000s, specializing in importing artwork from Italy 
+                House of Frames was established since 2000, specializing in importing artwork from Italy 
                 and the United States of America. Today, we are the sole agent of 7 highly known artwork 
                 companies worldwide.
               </p>
@@ -80,18 +80,32 @@ const About = () => {
           </div>
 
           <div className="animate-scale-in">
-            <div className="relative">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <div className="bg-gradient-gold p-1 rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop"
-                  alt="Our workshop showcasing traditional craftsmanship"
-                  className="w-full h-auto rounded-lg object-cover"
+                  src="/lovable-uploads/870b91df-81e9-48bf-9203-b7ba31e7e258.png"
+                  alt="Abstract framed artwork showcasing our custom framing expertise"
+                  className="w-full h-48 rounded-lg object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-4 rounded-lg shadow-card">
-                <p className="font-semibold">Est. 2000s</p>
-                <p className="text-sm opacity-90">Two decades strong</p>
+              <div className="bg-gradient-gold p-1 rounded-lg">
+                <img 
+                  src="/lovable-uploads/287e9086-6d57-46bf-aca8-39a4cc793b7d.png"
+                  alt="Contemporary framed art piece demonstrating our quality craftsmanship"
+                  className="w-full h-48 rounded-lg object-cover"
+                />
               </div>
+            </div>
+            <div className="bg-gradient-gold p-1 rounded-lg">
+              <img 
+                src="/lovable-uploads/c06b79a6-cb15-42a5-8ba2-19cbc9be7aee.png"
+                alt="Large scale framed artwork installation in luxury interior"
+                className="w-full h-64 rounded-lg object-cover"
+              />
+            </div>
+            <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-4 rounded-lg shadow-card">
+              <p className="font-semibold">Est. 2000</p>
+              <p className="text-sm opacity-90">Over two decades strong</p>
             </div>
           </div>
         </div>
