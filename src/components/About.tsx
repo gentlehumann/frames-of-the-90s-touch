@@ -119,34 +119,55 @@ const About = () => {
           ))}
         </div>
 
-        {/* Corporate Clients */}
+        {/* Previous Work */}
         <div className="mb-16">
           <h3 className="font-serif text-3xl font-semibold text-primary text-center mb-12">
-            Our Corporate Partners
+            Previous Work
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            <Card className="shadow-card">
-              <CardContent className="p-6 text-center">
-                <h4 className="font-semibold text-primary mb-3">Government</h4>
-                <p className="text-sm text-muted-foreground">Guest Palace Ministry of Foreign Affairs, Supreme Court</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Hotels and Resorts */}
+            <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+              <CardContent className="p-6">
+                <h4 className="font-semibold text-primary mb-4 text-lg">Hotels and Resorts</h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li>• Rixos Hotel</li>
+                  <li>• Radisson Blue</li>
+                  <li>• Nile Cruises</li>
+                </ul>
               </CardContent>
             </Card>
-            <Card className="shadow-card">
-              <CardContent className="p-6 text-center">
-                <h4 className="font-semibold text-primary mb-3">Universities</h4>
-                <p className="text-sm text-muted-foreground">Modern Academy Maady, British University</p>
+
+            {/* Government */}
+            <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+              <CardContent className="p-6">
+                <h4 className="font-semibold text-primary mb-4 text-lg">Government</h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li>• Guest Palace, Ministry of Foreign Affairs</li>
+                  <li>• General Secretary Office, Supreme Court</li>
+                </ul>
               </CardContent>
             </Card>
-            <Card className="shadow-card">
-              <CardContent className="p-6 text-center">
-                <h4 className="font-semibold text-primary mb-3">Hotels & Resorts</h4>
-                <p className="text-sm text-muted-foreground">We've had the privilege of creating custom frames and curated artwork collections for Rixos Hotel, Radisson Blue, and various Nile Cruise vessels, enhancing their luxury hospitality spaces with our premium craftsmanship.</p>
+
+            {/* Universities */}
+            <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+              <CardContent className="p-6">
+                <h4 className="font-semibold text-primary mb-4 text-lg">Universities</h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li>• Modern Academy Maady</li>
+                  <li>• British University</li>
+                </ul>
               </CardContent>
             </Card>
-            <Card className="shadow-card">
-              <CardContent className="p-6 text-center">
-                <h4 className="font-semibold text-primary mb-3">Healthcare</h4>
-                <p className="text-sm text-muted-foreground">Cleopatra Hospital, Hyatt Medical Center</p>
+
+            {/* Hospitals */}
+            <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+              <CardContent className="p-6">
+                <h4 className="font-semibold text-primary mb-4 text-lg">Hospitals</h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li>• One Day Surgery Hospital (Wady Natroun)</li>
+                  <li>• Cleopatra Hospital</li>
+                  <li>• Hyatt Medical Center</li>
+                </ul>
               </CardContent>
             </Card>
           </div>
