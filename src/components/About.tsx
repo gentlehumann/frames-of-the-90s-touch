@@ -42,7 +42,7 @@ const About = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Under the leadership of Director <span className="font-semibold text-primary">Ashraf Aziz</span>, 
-            House of Frames continues the legacy of excellence established by Mano Trade since 1996.
+            House of Frames continues its legacy of excellence established since 1996.
           </p>
         </div>
 
@@ -50,24 +50,24 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="animate-fade-in">
             <h3 className="font-serif text-3xl font-semibold text-primary mb-6">
-              Mano Trade & House of Frames
+              House of Frames Legacy
             </h3>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                The Egyptian International Company for Foreign Trade (Mano Trade) was established in 1996, 
-                mainly to import artwork from Italy and the United States of America. Today, Mano became 
-                the sole agent of 7 highly known artwork companies worldwide.
+                House of Frames was established in 1996, specializing in importing artwork from Italy 
+                and the United States of America. Today, we are the sole agent of 7 highly known artwork 
+                companies worldwide.
               </p>
               <p>
-                The company owns 1 factory to manufacture frames from both local and imported wood from Italy. 
-                In 2001, Mano inaugurated a sister company, "House of Frames" to act as a retailer company 
-                in wall decorations and artwork.
+                We own a factory to manufacture frames from both local and imported wood from Italy. 
+                House of Frames serves as both manufacturer and retailer, offering comprehensive services 
+                in wall decorations and artwork for clients across all sectors.
               </p>
               <p>
-                Over the last 10 years, the company succeeded to establish a well-known name in the field 
-                because of its proficiency and quality of its products. We've completed over 60 projects 
-                with various establishments including government buildings, universities, clubs, hospitals, 
-                hotels, and restaurants across Egypt and Kuwait.
+                Over nearly three decades, we have established a well-known name in the field because of 
+                our proficiency and quality products. We've completed over 60 projects with various 
+                establishments including government buildings, universities, clubs, hospitals, hotels, 
+                and restaurants across Egypt and Kuwait.
               </p>
             </div>
             <Button 
