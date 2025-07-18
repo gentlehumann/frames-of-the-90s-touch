@@ -42,7 +42,7 @@ const About = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Under the leadership of Director <span className="font-semibold text-primary">Ashraf Aziz</span>, 
-            House of Frames continues its legacy of excellence established since 1996.
+            House of Frames continues its legacy of excellence established in the 2000s.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ const About = () => {
             </h3>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                House of Frames was established in 1996, specializing in importing artwork from Italy 
+                House of Frames was established in the 2000s, specializing in importing artwork from Italy 
                 and the United States of America. Today, we are the sole agent of 7 highly known artwork 
                 companies worldwide.
               </p>
@@ -64,7 +64,7 @@ const About = () => {
                 in wall decorations and artwork for clients across all sectors.
               </p>
               <p>
-                Over nearly three decades, we have established a well-known name in the field because of 
+                Over more than two decades, we have established a well-known name in the field because of 
                 our proficiency and quality products. We've completed over 60 projects with various 
                 establishments including government buildings, universities, clubs, hospitals, hotels, 
                 and restaurants across Egypt and Kuwait.
@@ -89,8 +89,8 @@ const About = () => {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-4 rounded-lg shadow-card">
-                <p className="font-semibold">Est. 1990s</p>
-                <p className="text-sm opacity-90">Three decades strong</p>
+                <p className="font-semibold">Est. 2000s</p>
+                <p className="text-sm opacity-90">Two decades strong</p>
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@ const About = () => {
             <Card className="shadow-card">
               <CardContent className="p-6 text-center">
                 <h4 className="font-semibold text-primary mb-3">Hotels & Resorts</h4>
-                <p className="text-sm text-muted-foreground">Four Seasons, Sofitel, Marriott, Hilton, Intercontinental</p>
+                <p className="text-sm text-muted-foreground">We've had the privilege of creating custom frames and curated artwork collections for Rixos Hotel, Radisson Blue, and various Nile Cruise vessels, enhancing their luxury hospitality spaces with our premium craftsmanship.</p>
               </CardContent>
             </Card>
             <Card className="shadow-card">
