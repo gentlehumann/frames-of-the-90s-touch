@@ -10,42 +10,42 @@ const Gallery = () => {
       id: 1,
       title: "Botanical Elegance",
       artist: "House Collection",
-      image: "/lovable-uploads/9ae8af0f-3b48-488e-b685-7b3fac2138fe.png",
+      image: "/frames-of-the-90s-touch/lovable-uploads/9ae8af0f-3b48-488e-b685-7b3fac2138fe.png",
       frameType: "Gold Ornate"
     },
     {
       id: 2,
       title: "Ceramic Collection",
       artist: "House Collection",
-      image: "/lovable-uploads/b161c5f6-bdc4-4dae-9b52-c5dc9af72523.png",
+      image: "/frames-of-the-90s-touch/lovable-uploads/b161c5f6-bdc4-4dae-9b52-c5dc9af72523.png",
       frameType: "Dark Walnut"
     },
     {
       id: 3,
       title: "Golden Portrait",
       artist: "House Collection",
-      image: "/lovable-uploads/e7706708-d4d6-4e5f-a51b-9c757aaa17ea.png",
+      image: "/frames-of-the-90s-touch/lovable-uploads/e7706708-d4d6-4e5f-a51b-9c757aaa17ea.png",
       frameType: "Modern Gold"
     },
     {
       id: 4,
       title: "Abstract Portrait",
       artist: "House Collection",
-      image: "/lovable-uploads/0b37569a-092a-41d3-92a8-245104a93bd5.png",
+      image: "/frames-of-the-90s-touch/lovable-uploads/0b37569a-092a-41d3-92a8-245104a93bd5.png",
       frameType: "Contemporary"
     },
     {
       id: 5,
       title: "Textured Canvas",
       artist: "House Collection",
-      image: "/lovable-uploads/cd1380ca-0efe-40bb-906c-73c1936f79e2.png",
+      image: "/frames-of-the-90s-touch/lovable-uploads/cd1380ca-0efe-40bb-906c-73c1936f79e2.png",
       frameType: "White Minimalist"
     },
     {
       id: 6,
       title: "Gold Leaf Art",
       artist: "House Collection",
-      image: "/lovable-uploads/ce433070-9fca-4efc-ae3e-fad71ea56dc4.png",
+      image: "/frames-of-the-90s-touch/lovable-uploads/ce433070-9fca-4efc-ae3e-fad71ea56dc4.png",
       frameType: "Silver Contemporary"
     }
   ];
