@@ -83,14 +83,14 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <div className="bg-gradient-gold p-1 rounded-lg">
                 <img 
-                  src="https://images.lovable.dev/437ebaa5-78f3-4b21-bb33-e402c8686a1f.png"
+                  src="/lovable-uploads/437ebaa5-78f3-4b21-bb33-e402c8686a1f.png"
                   alt="Abstract framed artwork showcasing our custom framing expertise"
                   className="w-full h-48 rounded-lg object-cover"
                 />
               </div>
               <div className="bg-gradient-gold p-1 rounded-lg">
                 <img 
-                  src="https://images.lovable.dev/62745277-a3df-4594-ad1e-301b05d34173.png"
+                  src="/lovable-uploads/62745277-a3df-4594-ad1e-301b05d34173.png"
                   alt="Contemporary framed art piece demonstrating our quality craftsmanship"
                   className="w-full h-48 rounded-lg object-cover"
                 />
@@ -98,7 +98,7 @@ const About = () => {
             </div>
             <div className="bg-gradient-gold p-1 rounded-lg">
               <img 
-                src="https://images.lovable.dev/774e11d1-8267-4389-a1d5-60fb369277ed.png"
+                src="/lovable-uploads/774e11d1-8267-4389-a1d5-60fb369277ed.png"
                 alt="Large scale framed artwork installation in luxury interior"
                 className="w-full h-64 rounded-lg object-cover"
               />
