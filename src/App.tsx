@@ -13,11 +13,11 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/frames-of-the-90s-touch">
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "" ROUTE */}
+          <Route path="" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
