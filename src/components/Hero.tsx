@@ -96,7 +96,7 @@ const Hero = () => {
               <div className="relative">
                 <div className="bg-gradient-gold p-1 rounded-lg shadow-elegant">
                   <img 
-                    src="/lovable-uploads/82c97ab7-aadb-451d-aaba-de62d51538aa.png"
+                    src="/frames-of-the-90s-touch/lovable-uploads/82c97ab7-aadb-451d-aaba-de62d51538aa.png"
                     alt="Various frame samples showcasing our craftsmanship"
                     className="w-full h-auto rounded-lg object-cover"
                   />
