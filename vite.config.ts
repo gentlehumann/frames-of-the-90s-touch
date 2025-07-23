@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/", 
+  base: "/frames-of-the-90s-touch/", 
   server: {
     host: "::",
     port: 8080,
