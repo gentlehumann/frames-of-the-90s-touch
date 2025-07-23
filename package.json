@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build","postbuild": "shx cp dist/index.html dist/404.html",
     "build:dev": "vite build --mode development",
+    "postbuild": "shx cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
